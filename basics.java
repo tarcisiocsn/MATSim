@@ -105,7 +105,34 @@ You are 28 years old
 You like sushi
 
 -----------------
+// operators
+import java.util.Scanner;
 
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// expression = operands & operators
+		// operands = values, variables, numbers, quantity
+		// operators = + - * / %
+		
+		int friends = 10; 
+		friends = friends % 2; // remainder 
+		
+		int number = 10;
+		number++; // gonna add one number se usar number-- vai tirar 1 num.
+		
+		int number_1 = 10;
+		number_1 = 10/3; // it's a integer, so the result will be 3, not 3.33, we need to change  the inialization with double value
+		
+		System.out.println(friends); 
+		System.out.println(number);
+		System.out.println(number_1);
+		
+		
+	}
+
+}
 
 
 
