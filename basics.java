@@ -1,6 +1,7 @@
 // first program
-1. new project
-2. 
+//1. new project
+//2. class
+-----------------
 public class Main {
 
 	public static void main(String[] args) {
@@ -133,6 +134,77 @@ public class Main {
 	}
 
 }
+
+// GUI - Graphical User Interface
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String name = JOptionPane.showInputDialog("Enter you Name"); // first box
+		JOptionPane.showConfirmDialog(null, "Hello "+ name); // second box with the output
+			
+		
+	}
+
+}
+
+// other option
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String name = JOptionPane.showInputDialog("Enter you Name"); 
+		JOptionPane.showConfirmDialog(null, "Hello "+ name);
+			
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age")); // this will return a string with a Interger.parseInt method, because of the showinputdialog we need to change the type
+		JOptionPane.showConfirmDialog(null, "Your are "+ age + " years old"); 
+		
+		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height (cm)")); 
+		JOptionPane.showConfirmDialog(null, "Your are "+ height + " cm tall"); 
+		
+		
+		
+		
+		
+	}
+
+}
+
+-----------------
+// math methods
+	
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double x = 3.14;
+		double y = -10;
+		
+		double z = Math.max(x, y);
+		
+		double 
+		
+		System.out.println(z);
+		
+		
+		
+	
+		
+	}
+
+}
+//output
+3.14
+---------
+
+	
 
 
 
