@@ -52,6 +52,26 @@ por exemplo eita vou pegar esse onibus pq é mais rapido, mas e se todo mundo pe
 
 > eles usaram o algoritmo genétique 
 
+> OS INDIVIDUOS PROCURAM PARA OTIMIZAÇÃO PRÓPRIA E A SIMULAÇÃO FAZ ISSO, MAS O RESULTADO GLOBAL TEM UM SCORE QUE NÃO NECESSÁRIAMENTE É O OPTIMAL POUR CHAQUE AGENT (INDIVIDUO)
+
+> SCORE: A SIMULAÇÃO IRÁ PARAR QUANDO A CURVA DE SCORE CHEGARÁ NO EQUILIBRIO
+
+O QUE QUEREMOS TER NA SIMULAÇÃO
+- Interação fisica entre os agentes
+- representaçÃo temporal e spacial do sistema de transporte real
+- Simulation de: comportamento da congestion, comportement aux carrefours etc..
+- variables décriavant les conditions du réseau (flux, temps de trajet, retard, etc.)
+
+> Existe um problema!
+- Trade-off: entre o réalismo e o tempo de calcul
+- plus de réalisme donc plus d'événements (réactions à des situations qui ...
+
+### TYPES DE SIMULATION
+queue model - fille d'attente
+ gráfico vitesse vs résolution
+ maior résolution menos velocidade para o resultado
+ 
+ 
 
 
 
