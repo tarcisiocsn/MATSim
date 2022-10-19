@@ -26,6 +26,32 @@
 plus de complexité: plus de temps de calcul
 plus d'information: difficile de mesurer
 ```
+### sélection
+algorithm evolutif - survie
+
+### replanning
+- replanning
+  - la manière dont les plans sont mutés/modifiés/adaptés (pour la création d'un nouveau plan)
+- tache
+
+> LA SIMULATION ELLE MÊME C'EST L'ALGORITHM QUE PARLE - DONC TOUT LE LOOP C'EST L'ALGO
+- routes: variations de l'algorithme (à chaque interation on utilise Dijkstra dynamique (best reponse) 
+
+por exemplo eita vou pegar esse onibus pq é mais rapido, mas e se todo mundo pensar igual? 
+
+- horaire: variation aléatoire des heures
+
+- modes: w
+
+- localisation des activités secondaires:
+  - choix aléatoire
+
+### évolution & coévolution
+
+  - population of individuals 
+
+> eles usaram o algoritmo genétique 
+
 
 
 
