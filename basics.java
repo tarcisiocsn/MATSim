@@ -195,15 +195,112 @@ public class Main {
 		
 		
 		
-	
-		
 	}
 
 }
 //output
 3.14
----------
+-------------
+	// hipotenusa example
+import java.util.Scanner;
 
+public class Main {
+
+	public static void main(String[] args) {
+		// hipotenusa
+		double x;
+		double y;
+		double z; 
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		// we need a prompt to x, y assign
+		System.out.println("Enter side x: ");
+		x = scanner.nextDouble();
+		
+		System.out.println("Enter side y: ");
+		y = scanner.nextDouble();
+		
+		z = Math.sqrt((x*x) + (y*y)); //square root function
+		
+		System.out.println("The hypotenuse is: " + z);
+		
+		scanner.close();
+		
+		
+	
+		
+	}
+
+}
+
+// ---------------------
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Random random = new Random(); // generate a random number
+		
+		//int x = random.nextInt(); // variable x will generate a random number integer
+		//double y = random.nextDouble(); 
+		boolean z = random.nextBoolean();
+		System.out.println(z);
+		
+		// integer is a number between -2 billion and 2 billion
+		
+		// random values from a dice 1 to 6
+		
+		Random random_1 = new Random(); // varible random_1 se não o codigo de cima dará merda, n podem ser a mesma variable
+		
+		int dice = random_1.nextInt(6)+1; // if I use only 6 will generate 0 to 6, so I increased +1
+		
+		System.out.println(dice);
+	
+			
+		
+	}
+
+}
+
+//-----------------
+// if statements
+
+public class Main {
+
+	// if statements 
+	public static void main(String[] args) {
+		
+		int age = 14;
+		
+		if(age >= 75) {
+			
+			System.out.println("Ok Boomer!");
+			
+		}
+		
+		else if(age >= 18) {
+			
+			System.out.println("You are an adult!");
+			
+		}
+		
+		else if(age >= 13) {
+			System.out.println("You are a teenager!");
+		}
+		
+		else {
+			System.out.println("You are not an adult :(");
+		}
+
+		
+	}
+
+}
+
+// -------------------
 	
 
 
