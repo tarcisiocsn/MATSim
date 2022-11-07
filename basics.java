@@ -301,7 +301,99 @@ public class Main {
 }
 
 // -------------------
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// switch = statement that allows a variable to be tested for equality against a list of value 
+		
+		String day = "Monday";
+		
+		switch(day) {
+			case "Sunday": System.out.println("It is Sunday!");
+			break;
+			case "Monday": System.out.println("It is Monday!");
+			break;
+			case "Tuesday": System.out.println("It is Tuesday");
+			break;
+			case "Wednesday": System.out.println("It is Wednesday!");
+			break;
+			case "Thurday": System.out.println("It's Thursday!");
+			break;
+			case "Friday": System.out.println("It is Friday!");
+			break;
+			case "Saturday": System.out.println("It's Saturday!");
+			break;	
+		}
+	}
 	
+
+		
+	}
+// output
+// it is monday
+
+// -----------------------
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// switch = statement that allows a variable to be tested for equality against a list of value 
+		
+		String day = "ai dentro";
+		
+		switch(day) {
+			case "Sunday": System.out.println("It is Sunday!");
+			break;
+			case "Monday": System.out.println("It is Monday!");
+			break;
+			case "Tuesday": System.out.println("It is Tuesday");
+			break;
+			case "Wednesday": System.out.println("It is Wednesday!");
+			break;
+			case "Thurday": System.out.println("It's Thursday!");
+			break;
+			case "Friday": System.out.println("It is Friday!");
+			break;
+			case "Saturday": System.out.println("It's Saturday!");
+			break;	
+			default: System.out.println("It is not a day!");
+		}
+	}
+	
+
+		
+	}
+// output
+// It is not a day!
+
+// -----------------------
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// && = and
+		// || = or
+		// ! = not
+		int temp = 18;
+		
+		if(temp>30) {
+			System.out.println("It is hot outside");
+		}
+		else if(temp>=20 && temp <= 30) {
+			System.out.println("It's nice outside");
+		}
+		else {
+			System.out.println("it's cold outside");
+		}
+
+		
+	}
+	
+
+		
+	}
+
 
 
 
